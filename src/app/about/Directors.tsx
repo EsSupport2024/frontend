@@ -8,7 +8,7 @@ const Directors = () => {
         <div className="text-center pb-5 md:hidden sm:block">
           <div className="font-bold">From the Director&apos;s desk</div>
           <div className="text-xs font-bold">
-            Kishlay Thakur, Founder & Director of ES Support.
+            Kishlay Kumar, Founder & Director of ES Support.
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 justify-center md:items-end w-3/4 md:w-full m-auto">
@@ -25,7 +25,7 @@ const Directors = () => {
               From the Director&apos;s desk
             </div>
             <div className="text-lg text-black hidden md:block font-bold">
-              Kishlay Thakur, Founder & Director of ES Support.
+              Kishlay Kumar, Founder & Director of ES Support.
             </div>
             <div>
               Armed with a Bachelor&apos;s degree in Electrical Engineering
