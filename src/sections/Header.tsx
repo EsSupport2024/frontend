@@ -6,6 +6,12 @@ import Image from "next/image";
 import {AlignJustify, ChevronDown, X} from "lucide-react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import {serviceList} from "@/app/page";
+
+const about = [
+  {name: "Know Our Director", url: "/about#director"},
+  {name: "Certification", url: "/about#certification"},
+];
 
 const Header = ({css}: {css?: string}) => {
   const device = useDeviceType();
@@ -39,59 +45,45 @@ const Header = ({css}: {css?: string}) => {
             Home
           </Link>
           <div className="dropdown">
-            <button
+            <a
               className={
                 pathname === "/about"
-                  ? "border-b border-black dropbtn"
+                  ? "border-b border-black dropbtn py-1"
                   : "dropbtn"
               }
+              href="/about"
             >
               About
               <ChevronDown className="inline" />
-            </button>
+            </a>
             <div className="dropdown-content">
-              <ul>
-                <a href="/about#director">
-                  <li>Know Our Director</li>
-                </a>
-                <a href="/about#certification">
-                  <li>Certification</li>
-                </a>
-              </ul>
+              <div>
+                {about.map((abt, index) => (
+                  <div key={abt.url} className="py-2 font-normal">
+                    <a href={abt.url}>{abt.name}</a>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
           <div className="dropdown">
-            <button
+            <a
               className={
                 pathname === "/services"
-                  ? "border-b border-black dropbtn"
+                  ? "border-b border-black dropbtn py-1"
                   : "dropbtn"
               }
+              href="/services"
             >
               Services
               <ChevronDown className="inline" />
-            </button>
+            </a>
             <div className="dropdown-content">
-              <ul className="">
-                <a href="/facility">
-                  <li>Facility Management</li>
-                </a>
-                <a href="/operation">
-                  <li>Operation & Maintenance</li>
-                </a>
-                <a href="/mep">
-                  <li>MEP Services</li>
-                </a>
-                <a href="/it">
-                  <li>IT Services</li>
-                </a>
-                <a href="/security">
-                  <li>Security Services</li>
-                </a>
-                <a href="/civil">
-                  <li>Civil & Maintenance</li>
-                </a>
-              </ul>
+              {serviceList.map((ser, index) => (
+                <div key={ser.url} className="py-2 font-normal">
+                  <a href={ser.url}>{ser.name}</a>
+                </div>
+              ))}
             </div>
           </div>
           <Link
@@ -107,7 +99,7 @@ const Header = ({css}: {css?: string}) => {
             Blogs
           </Link>
           <a
-            className="bg-primaryBlue rounded-lg text-white py-3 px-11 font-bold text-lg"
+            className="bg-[#001215] rounded-lg text-white py-3 px-11 font-bold text-lg"
             href="/contact-us"
           >
             Contact Us

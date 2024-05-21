@@ -11,7 +11,6 @@ const Page = () => {
         <Header />
         <Hero />
       </div>
-
       <GetInTouch />
       <Footer />
     </>

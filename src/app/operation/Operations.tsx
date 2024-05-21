@@ -5,6 +5,8 @@ import operation1 from "@/../public/assets/images/operation1.png";
 import operation2 from "@/../public/assets/images/operation2.png";
 import operation3 from "@/../public/assets/images/operation3.png";
 import operation4 from "@/../public/assets/images/operation4.png";
+import {serviceList} from "../page";
+import classNames from "classnames";
 
 const Operations = () => {
   return (
@@ -181,7 +183,6 @@ const Operations = () => {
                   </div>
                 </AccordionItem>
               </Accordion>
-              <Accordion title="G. Housekeeping service"></Accordion>
               <Accordion title="H. Sewage treatment plant maintenance">
                 <AccordionItem>
                   <div className="text-[9px] md:text-base w-full text-justify">
@@ -212,10 +213,10 @@ const Operations = () => {
                 <img src={operation1.src} />
               </div>
               <div>
-                <img src={operation4.src} />
+                <img src={operation4.src} className="h-full" />
               </div>
               <div>
-                <img src={operation3.src} />
+                <img src={operation3.src} className="h-full" />
               </div>
               <div className="md:col-span-2">
                 <img src={operation2.src} />
@@ -227,30 +228,17 @@ const Operations = () => {
               <div className="h-[200px] flex items-end justify-start p-10 md:text-2xl font-bold">
                 Our Services
               </div>
-              <li className="list-before list-none">
-                <span className="ml-16 font-bold">
-                  Operation and Maintenance Services
-                </span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Facility Management (Soft Services)
-                </span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">IT Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">Security Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">MEP Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Civil Engineering & Maintenance Services
-                </span>
-              </li>
+              {serviceList.map((item, idx) => (
+                <a className="list-before" href={item.url} key={idx}>
+                  <span
+                    className={classNames("ml-16", {
+                      "font-bold": item.url === "/operation",
+                    })}
+                  >
+                    {item.name}
+                  </span>
+                </a>
+              ))}
             </div>
           </div>
         </div>

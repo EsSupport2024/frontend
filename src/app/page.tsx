@@ -9,6 +9,15 @@ import GetInTouch from "@/sections/GetInTouch";
 import Footer from "@/sections/Footer";
 import "./globals.css";
 
+export const serviceList = [
+  {name: "Facility Management", url: "/facility"},
+  {name: "MEP Services", url: "/mep"},
+  {name: "IT Services", url: "/it"},
+  {name: "Security Services", url: "/security"},
+  {name: "Operation & Maintenance", url: "/operation"},
+  {name: "Civil & Maintenance", url: "/civil"},
+];
+
 export default function Home() {
   return (
     <>

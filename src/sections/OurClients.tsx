@@ -39,10 +39,13 @@ const OurClients = () => {
         <div className="text-center md:text-left font-bold md:text-4xl">
           Our Clients
         </div>
-        <div className="mt-10">
-          <div className="whitespace-nowrap h-[42px] overflow-x-auto sm:scroll-box flex space-x-4 no-scrollbar">
+        <div className="mt-10 marquee-container">
+          <div className="= h-[42px] space-x-4 no-scrollbar marquee">
             {partnerList.map((partner, key) => (
-              <img src={partner} key={key} className="" />
+              <img src={partner} key={key} />
+            ))}
+            {partnerList.map((partner, key) => (
+              <img src={partner} key={key} />
             ))}
           </div>
         </div>

@@ -29,7 +29,7 @@ const GetInTouch = ({
 
             <div>
               <a href="/contact-us">
-                <button className="bg-[#EFFEFF] text-black md:py-4 md:px-8 px-4 py-2 rounded-md text-[9px] md:text-base">
+                <button className="bg-[#EFFEFF] text-black md:py-4 md:px-8 px-4 py-2 rounded-md text-[9px] md:text-base font-bold">
                   Connect now
                 </button>
               </a>

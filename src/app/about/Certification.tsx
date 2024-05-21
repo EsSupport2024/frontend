@@ -23,9 +23,13 @@ const Certification = () => {
               separation between the business and its owners. It reinforces our
               commitment to legal compliance, governance, and accountability.
             </div>
-            <button className="bg-white rounded w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal">
+            <a
+              className="bg-white rounded w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
+              href="https://drive.google.com/file/d/1F02pF0iVWJBFviXEKmNX9I5om8gtsPpO/view?usp=drive_link"
+              target="_blank"
+            >
               Watch Now
-            </button>
+            </a>
           </div>
           <div className="rounded-xl bg-darkGray justify-end p-5 flex flex-col gap-5">
             <div className="font-bold text-xs md:text-xl text-white">
@@ -38,9 +42,13 @@ const Certification = () => {
               qualified and compliant with industry standards, ensuring the safe
               and reliable execution of electrical services.
             </div>
-            <button className="bg-white rounded w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal">
+            <a
+              className="bg-white rounded w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
+              href="https://drive.google.com/file/d/1QRtLcZk0RyVYfS-V622Vz-2TLzkpy94f/view?usp=drive_link"
+              target="_blank"
+            >
               Watch Now
-            </button>
+            </a>
           </div>
           <div className="rounded-xl bg-darkGray justify-end p-5 flex flex-col gap-5 md:col-span-2 md:py-10">
             <div className="font-bold text-xs md:text-xl text-white">
@@ -53,9 +61,13 @@ const Certification = () => {
               This certification acknowledges our contribution to economic
               development and facilitates various benefits available to MSMEs.
             </div>
-            <button className="bg-white rounded w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal">
+            <a
+              className="bg-white rounded w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
+              href="https://drive.google.com/file/d/1x9Scc-_WTppASqugsMNijZnqzKECMw7I/view?usp=drive_link"
+              target="_blank"
+            >
               Watch Now
-            </button>
+            </a>
           </div>
         </div>
       </div>
