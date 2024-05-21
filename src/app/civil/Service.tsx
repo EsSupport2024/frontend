@@ -3,6 +3,8 @@ import civil1 from "@/../public/assets/images/civil1.png";
 import civil2 from "@/../public/assets/images/civil2.png";
 import civil3 from "@/../public/assets/images/civil3.png";
 import civil4 from "@/../public/assets/images/civil4.png";
+import {serviceList} from "../page";
+import classNames from "classnames";
 
 const Service = () => {
   return (
@@ -39,10 +41,10 @@ const Service = () => {
                 <img src={civil1.src} />
               </div>
               <div>
-                <img src={civil2.src} />
+                <img src={civil2.src} className="h-full" />
               </div>
               <div>
-                <img src={civil3.src} />
+                <img src={civil3.src} className="h-full" />
               </div>
               <div className="md:col-span-2">
                 <img src={civil4.src} />
@@ -54,30 +56,17 @@ const Service = () => {
               <div className="h-[200px] flex items-end justify-start p-10 md:text-2xl font-bold">
                 Our Services
               </div>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Operation and Maintenance Services
-                </span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Facility Management (Soft Services)
-                </span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">IT Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">Security Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">MEP Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16 font-bold">
-                  Civil Engineering & Maintenance Services
-                </span>
-              </li>
+              {serviceList.map((item, idx) => (
+                <a className="list-before" href={item.url} key={idx}>
+                  <span
+                    className={classNames("ml-16", {
+                      "font-bold": item.url === "/civil",
+                    })}
+                  >
+                    {item.name}
+                  </span>
+                </a>
+              ))}
             </div>
           </div>
         </div>

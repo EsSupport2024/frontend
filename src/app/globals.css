@@ -244,3 +244,23 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.marquee-container {
+  overflow: hidden;
+  padding: 10px 0; /* Adjust as needed */
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

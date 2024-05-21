@@ -72,15 +72,9 @@ const Hero = () => {
                 required
               />
             </div>
-            <div>
-              <input type="checkbox" id="agree" name="agree" value="agree" />
-              <label className="ml-2">
-                agree to our friendly privacy policy
-              </label>
-            </div>
             <button
               type="submit"
-              className="text-white bg-primaryBlue w-full focus:ring-4 focus:outline-none font-medium rounded-lg text-sm  px-5 py-2.5 text-center"
+              className="text-white bg-primaryBlue w-full focus:ring-4 focus:outline-none font-medium rounded-lg text-sm md:text-lg px-5 py-2.5 text-center"
             >
               Submit
             </button>

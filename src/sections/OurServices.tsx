@@ -59,7 +59,7 @@ const OurServices = () => {
               </div>
             </div>
             <div
-              style={{"--image-url": `url(${service5.src})`} as {}}
+              style={{"--image-url": `url(${service4.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
@@ -101,7 +101,7 @@ const OurServices = () => {
               </div>
             </div>
             <div
-              style={{"--image-url": `url(${service6.src})`} as {}}
+              style={{"--image-url": `url(${service5.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
@@ -123,7 +123,7 @@ const OurServices = () => {
           </div>
           <div>
             <div
-              style={{"--image-url": `url(${service4.src})`} as {}}
+              style={{"--image-url": `url(${service6.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">

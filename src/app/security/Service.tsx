@@ -3,6 +3,8 @@ import security1 from "@/../public/assets/images/security1.png";
 import security2 from "@/../public/assets/images/security2.png";
 import security3 from "@/../public/assets/images/security3.png";
 import security4 from "@/../public/assets/images/security4.png";
+import {serviceList} from "../page";
+import classNames from "classnames";
 
 const Service = () => {
   return (
@@ -28,10 +30,10 @@ const Service = () => {
                 <img src={security1.src} />
               </div>
               <div>
-                <img src={security2.src} />
+                <img src={security2.src} className="h-full" />
               </div>
               <div>
-                <img src={security3.src} />
+                <img src={security3.src} className="h-full" />
               </div>
               <div className="md:col-span-2">
                 <img src={security4.src} />
@@ -43,30 +45,17 @@ const Service = () => {
               <div className="h-[200px] flex items-end justify-start p-10 md:text-2xl font-bold">
                 Our Services
               </div>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Operation and Maintenance Services
-                </span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Facility Management (Soft Services)
-                </span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">IT Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16 font-bold">Security Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">MEP Services</span>
-              </li>
-              <li className="list-before list-none">
-                <span className="ml-16">
-                  Civil Engineering & Maintenance Services
-                </span>
-              </li>
+              {serviceList.map((item, idx) => (
+                <a className="list-before" href={item.url} key={idx}>
+                  <span
+                    className={classNames("ml-16", {
+                      "font-bold": item.url === "/security",
+                    })}
+                  >
+                    {item.name}
+                  </span>
+                </a>
+              ))}
             </div>
           </div>
         </div>
