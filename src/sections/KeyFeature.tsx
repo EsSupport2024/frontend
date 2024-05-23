@@ -32,7 +32,7 @@ const KeyFeature = () => {
         <div className="md:flex space-y-5 md:gap-40 md:items-center">
           <img
             src={Relation.src}
-            className="h-[351px] w-auto md:h-[517px] m-auto md:m-0"
+            className="h-[351px] w-auto md:h-[550px] m-auto md:m-0"
             id="weCareImg"
           />
           <div
@@ -40,8 +40,8 @@ const KeyFeature = () => {
             id="weCareItem"
           >
             <div className="space-y-2">
-              <div className="w-fit bg-[#121B2C] rounded-full px-2 py-3 m-auto md:m-0">
-                <img src={stack.src} className="w-6" />
+              <div className="w-fit bg-[#121B2C] rounded-full p-3 m-auto md:m-0">
+                <img src={stack.src} className="size-[25px]" />
               </div>
               <div>
                 <div className="font-bold md:text-xl text-xs">
@@ -54,8 +54,8 @@ const KeyFeature = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <div className="w-fit bg-[#121B2C] rounded-full px-2 py-3 m-auto md:m-0">
-                <img src={group.src} className="w-6 h-5" />
+              <div className="w-fit bg-[#121B2C] rounded-full p-3 m-auto md:m-0">
+                <img src={group.src} className="size-[25px]" />
               </div>
               <div>
                 <div className="font-bold md:text-xl text-xs">
@@ -68,8 +68,8 @@ const KeyFeature = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <div className="w-fit bg-[#121B2C] rounded-full px-2 py-3 m-auto md:m-0">
-                <img src={idea.src} className="w-6 h-5" />
+              <div className="w-fit bg-[#121B2C] rounded-full p-3 m-auto md:m-0">
+                <img src={idea.src} className="size-[25px]" />
               </div>
               <div>
                 <div className="font-bold md:text-xl text-xs">
@@ -82,8 +82,8 @@ const KeyFeature = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <div className="w-fit bg-[#121B2C] rounded-full px-2 py-3 m-auto md:m-0">
-                <img src={graph.src} className="w-6 h-5" />
+              <div className="w-fit bg-[#121B2C] rounded-full p-3 m-auto md:m-0">
+                <img src={graph.src} className="size-[25px]" />
               </div>
               <div>
                 <div className="font-bold md:text-xl text-xs">
@@ -96,8 +96,8 @@ const KeyFeature = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <div className="w-fit bg-[#121B2C] rounded-full px-2 py-3 m-auto md:m-0">
-                <img src={bulb.src} className="w-6 h-5" />
+              <div className="w-fit bg-[#121B2C] rounded-full p-3 m-auto md:m-0">
+                <img src={bulb.src} className="size-[25px]" />
               </div>
               <div>
                 <div className="font-bold md:text-xl text-xs">
