@@ -19,7 +19,9 @@ const Header = ({css}: {css?: string}) => {
   const [menu, setMenu] = React.useState(false);
   const web = device === "web";
   return (
-    <div className={css || "h-14 md:h-24 shadow-lg py-5"}>
+    <div
+      className={css || "h-14 md:h-24 shadow-lg py-5 animate-slideInFromTop"}
+    >
       <div className="container px-4 m-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div>

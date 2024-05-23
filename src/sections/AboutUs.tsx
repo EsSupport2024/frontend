@@ -1,10 +1,12 @@
-import {SectionHead} from "@/components/utilityComponents";
 import React from "react";
 
 const AboutUs = () => {
   return (
     <div className="bg-orange text-white">
-      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
+      <div
+        className="container mx-auto px-4 py-16 md:px-24 md:py-32"
+        id="about-us"
+      >
         <div className="text-center md:text-left font-bold md:text-4xl">
           About us
         </div>
