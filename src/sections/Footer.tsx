@@ -52,12 +52,12 @@ const Footer = () => {
             Services
           </a>
           <div className="space-y-2 text-[9px] md:text-base flex flex-col">
-            <a href="/facility">Facility Management</a>
-            <a href="/mep">MEP Services</a>
-            <a href="/it">IT Services</a>
-            <a href="/security">Security Services</a>
-            <a href="/operation">Operation & Maintenance</a>
-            <a href="/civil">Civil & Maintenance</a>
+            <a href="/services/facility">Facility Management</a>
+            <a href="/services/mep">MEP Services</a>
+            <a href="/services/it">IT Services</a>
+            <a href="/services/security">Security Services</a>
+            <a href="/services/operation">Operation & Maintenance</a>
+            <a href="/services/civil">Civil & Maintenance</a>
           </div>
         </div>
         <div className="space-y-4 min-w-40">

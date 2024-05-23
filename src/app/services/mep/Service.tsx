@@ -3,7 +3,7 @@ import mep1 from "@/../public/assets/images/mep1.png";
 import mep2 from "@/../public/assets/images/mep2.png";
 import mep3 from "@/../public/assets/images/mep3.png";
 import mep4 from "@/../public/assets/images/mep4.png";
-import {serviceList} from "../page";
+import {serviceList} from "@/app/page";
 import classNames from "classnames";
 
 const Service = () => {

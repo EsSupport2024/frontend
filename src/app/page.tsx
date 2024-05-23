@@ -9,6 +9,7 @@ import GetInTouch from "@/sections/GetInTouch";
 import Footer from "@/sections/Footer";
 import dynamic from "next/dynamic";
 import "./globals.css";
+import WhatsApp from "@/components/WhatsApp";
 
 const IntersectionObserverComponent = dynamic(
   () => import("@/components/IntersectionObserverComponent"),
@@ -33,12 +34,12 @@ const elements = [
 ];
 
 export const serviceList = [
-  {name: "Facility Management", url: "/facility"},
-  {name: "MEP Services", url: "/mep"},
-  {name: "IT Services", url: "/it"},
-  {name: "Security Services", url: "/security"},
-  {name: "Operation & Maintenance", url: "/operation"},
-  {name: "Civil & Maintenance", url: "/civil"},
+  {name: "Facility Management", url: "/services/facility"},
+  {name: "MEP Services", url: "/services/mep"},
+  {name: "IT Services", url: "/services/it"},
+  {name: "Security Services", url: "/services/security"},
+  {name: "Operation & Maintenance", url: "/services/operation"},
+  {name: "Civil & Maintenance", url: "/services/civil"},
 ];
 
 export default function Home() {
@@ -57,6 +58,7 @@ export default function Home() {
         <GetInTouch />
         <Footer />
         <IntersectionObserverComponent elements={elements} />
+        <WhatsApp />
       </div>
     </>
   );

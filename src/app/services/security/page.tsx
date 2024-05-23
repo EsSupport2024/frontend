@@ -6,7 +6,7 @@ import React from "react";
 import security from "@/../public/assets/images/security.png";
 import Hero from "./Hero";
 import Service from "./Service";
-import {openGraphImage} from "../shared-metadata";
+import {openGraphImage} from "../../shared-metadata";
 
 export const metadata: Metadata = {
   title: "",
@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+import WhatsApp from "@/components/WhatsApp";
 
 const Page = () => {
   return (
@@ -37,6 +38,7 @@ const Page = () => {
       <Service />
       <GetInTouch containerCss="container mx-auto px-4 pb-16 md:px-24 md:pb-32" />
       <Footer />
+      <WhatsApp />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import WhatsApp from "@/components/WhatsApp";
 import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
@@ -33,6 +34,7 @@ const Page = () => (
     <Locations />
     <GetInTouch />
     <Footer />
+    <WhatsApp />
   </>
 );
 

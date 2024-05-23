@@ -6,6 +6,7 @@ import mep from "@/../public/assets/images/mep.png";
 import Hero from "./Hero";
 
 import Service from "./Service";
+import WhatsApp from "@/components/WhatsApp";
 
 const Page = () => {
   return (
@@ -22,6 +23,7 @@ const Page = () => {
       <Service />
       <GetInTouch containerCss="container mx-auto px-4 pb-16 md:px-24 md:pb-32" />
       <Footer />
+      <WhatsApp />
     </>
   );
 };

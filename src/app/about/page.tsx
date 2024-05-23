@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+import WhatsApp from "@/components/WhatsApp";
 
 const Page = () => {
   return (
@@ -42,6 +43,7 @@ const Page = () => {
       <Certification />
       <GetInTouch />
       <Footer />
+      <WhatsApp />
     </>
   );
 };
