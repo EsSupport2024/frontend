@@ -1,3 +1,4 @@
+import type {Metadata} from "next";
 import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
@@ -5,6 +6,21 @@ import React from "react";
 import security from "@/../public/assets/images/security.png";
 import Hero from "./Hero";
 import Service from "./Service";
+import {openGraphImage} from "../shared-metadata";
+
+export const metadata: Metadata = {
+  title: "",
+  description: "",
+  keywords: "",
+  robots: "index, follow",
+  openGraph: {
+    ...openGraphImage,
+    title: "",
+    description: "",
+    url: "",
+    type: "website",
+  },
+};
 
 const Page = () => {
   return (

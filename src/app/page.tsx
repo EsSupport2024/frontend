@@ -21,17 +21,19 @@ export const serviceList = [
 export default function Home() {
   return (
     <>
-      <div className="bg-shade1">
-        <Header />
-        <HeroSection />
+      <div className="bg-[#F9F4F1]">
+        <div className="bg-shade1">
+          <Header />
+          <HeroSection />
+        </div>
+        <WhyUs />
+        <OurClients />
+        <AboutUs />
+        <OurServices />
+        <KeyFeature />
+        <GetInTouch />
+        <Footer />
       </div>
-      <WhyUs />
-      <OurClients />
-      <AboutUs />
-      <OurServices />
-      <KeyFeature />
-      <GetInTouch />
-      <Footer />
     </>
   );
 }
