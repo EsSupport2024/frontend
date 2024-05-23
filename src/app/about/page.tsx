@@ -9,7 +9,6 @@ import OurValues from "./OurValues";
 import VisionMission from "./VisionMission";
 import Location from "./Location";
 import Certification from "./Certification";
-import {openGraphImage} from "../shared-metadata";
 
 export const metadata: Metadata = {
   title: "About ES Support | Leading Management Solutions Provider",
@@ -19,7 +18,6 @@ export const metadata: Metadata = {
     "about ES Support, facility management, MEP services, IT services, security services, operation and maintenance, civil and maintenance",
   robots: "index, follow",
   openGraph: {
-    ...openGraphImage,
     title: "About ES Support | Leading Management Solutions Provider",
     description:
       "Learn about ES Support, a leading provider of facility management, MEP services, IT services, security services, operation & maintenance, and civil & maintenance solutions. Our mission is to deliver top-notch services that help businesses thrive.",

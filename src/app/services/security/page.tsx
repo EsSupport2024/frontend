@@ -6,7 +6,6 @@ import React from "react";
 import security from "@/../public/assets/images/security.png";
 import Hero from "./Hero";
 import Service from "./Service";
-import {openGraphImage} from "../../shared-metadata";
 
 export const metadata: Metadata = {
   title: "",
@@ -14,7 +13,6 @@ export const metadata: Metadata = {
   keywords: "",
   robots: "index, follow",
   openGraph: {
-    ...openGraphImage,
     title: "",
     description: "",
     url: "",

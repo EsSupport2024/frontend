@@ -1,7 +1,6 @@
 import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import "./globals.css";
-import {openGraphImage} from "./shared-metadata";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
     "facility management, MEP services, IT services, security services, operation and maintenance, civil and maintenance",
   robots: "index, follow",
   openGraph: {
-    ...openGraphImage,
     title: "Facility Management Solutions | ES Support",
     description:
       "Discover top-notch facility management, MEP services, IT services, security services, operation & maintenance, and civil & maintenance solutions with ES Support.",
