@@ -1,3 +1,4 @@
+import type {Metadata} from "next";
 import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
@@ -6,6 +7,20 @@ import security from "@/../public/assets/images/security.png";
 import Hero from "./Hero";
 import Service from "./Service";
 import WhatsApp from "@/components/WhatsApp";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.essupport.in/services/"),
+  title: "",
+  description: "",
+  keywords: "",
+  robots: "index, follow",
+  openGraph: {
+    title: "",
+    description: "",
+    url: "",
+    type: "website",
+  },
+};
 
 const Page = () => {
   return (
