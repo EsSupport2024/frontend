@@ -36,7 +36,7 @@ const HeroSection = () => {
         <img
           src={image1.src}
           alt="management group discussion"
-          className="rounded-md m-auto w-[266px] md:w-[700px]"
+          className="rounded-md m-auto w-[466px] md:w-[700px]"
         />
       </div>
     </section>
