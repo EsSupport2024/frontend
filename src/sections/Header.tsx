@@ -76,7 +76,7 @@ const Header = ({css}: {css?: string}) => {
               Services
               <ChevronDown className="inline" />
             </a>
-            <div className="dropdown-content !z-10">
+            <div className="dropdown-content">
               {serviceList.map((ser, index) => (
                 <div key={ser.url} className="py-1 font-normal">
                   <a href={ser.url}>{ser.name}</a>
