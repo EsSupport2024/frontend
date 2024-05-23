@@ -8,6 +8,7 @@ import OurValues from "./OurValues";
 import VisionMission from "./VisionMission";
 import Location from "./Location";
 import Certification from "./Certification";
+import WhatsApp from "@/components/WhatsApp";
 
 const Page = () => {
   return (
@@ -23,6 +24,7 @@ const Page = () => {
       <Certification />
       <GetInTouch />
       <Footer />
+      <WhatsApp />
     </>
   );
 };

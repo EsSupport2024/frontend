@@ -25,7 +25,7 @@ const Services = () => {
                 solutions.
               </div>
               <a
-                href="/facility"
+                href="/services/facility"
                 className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
               >
                 Know more
@@ -46,7 +46,7 @@ const Services = () => {
                 plumbing solutions.
               </div>
               <a
-                href="/mep"
+                href="/services/mep"
                 className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
               >
                 Know more
@@ -67,7 +67,7 @@ const Services = () => {
                 information for your operational processes and daily tasks
               </div>
               <a
-                href="/it"
+                href="/services/it"
                 className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
               >
                 Know more
@@ -88,7 +88,7 @@ const Services = () => {
                 meets expertise.
               </div>
               <a
-                href="/security"
+                href="/services/security"
                 className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
               >
                 Know more
@@ -109,7 +109,7 @@ const Services = () => {
                 your technology initiatives forward.
               </div>
               <a
-                href="/operation"
+                href="/services/operation"
                 className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
               >
                 Know more
@@ -130,7 +130,7 @@ const Services = () => {
                 spaces where design meets precision and dreams become reality.
               </div>
               <a
-                href="/civil"
+                href="/services/civil"
                 className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
               >
                 Know more

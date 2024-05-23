@@ -3,6 +3,7 @@ import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
 import Logo from "@/../public/assets/big-logo.png";
 import React from "react";
+import WhatsApp from "@/components/WhatsApp";
 
 const LostSection = () => {
   return (
@@ -32,6 +33,7 @@ const ComingSoon = () => {
         <GetInTouch bg="transparent" />
       </div>
       <Footer />
+      <WhatsApp />
     </>
   );
 };

@@ -2,25 +2,27 @@ import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
 import React from "react";
-import operation from "@/../public/assets/images/operation.webp";
+import facility from "@/../public/assets/images/facility.png";
 import Hero from "./Hero";
-import Operations from "./Operations";
+import Service from "./Service";
+import WhatsApp from "@/components/WhatsApp";
 
 const Page = () => {
   return (
     <>
       <div
-        style={{backgroundImage: `url(${operation.src})`} as {}}
+        style={{backgroundImage: `url(${facility.src})`} as {}}
         className="bg-cover bg-no-repeat"
       >
         <div className="backdrop-blur-md">
-          <Header />
+          <Header css="h-14 md:h-24 shadow-lg py-5 text-white" />
         </div>
         <Hero />
       </div>
-      <Operations />
+      <Service />
       <GetInTouch containerCss="container mx-auto px-4 pb-16 md:px-24 md:pb-32" />
       <Footer />
+      <WhatsApp />
     </>
   );
 };

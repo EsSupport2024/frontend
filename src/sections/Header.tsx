@@ -58,21 +58,21 @@ const Header = ({css}: {css?: string}) => {
               About
               <ChevronDown className="inline" />
             </a>
-            <div className="dropdown-content">
+            {/* <div className="dropdown-content">
               <div>
                 {about.map((abt, index) => (
-                  <div key={abt.url} className="py-2 font-normal">
+                  <div key={abt.url} className="py-1.5 font-normal">
                     <a href={abt.url}>{abt.name}</a>
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="dropdown">
             <a
               className={
                 pathname === "/services"
-                  ? "border-b border-black dropbtn py-1"
+                  ? "border-b border-black dropbtn py-1.5"
                   : "dropbtn"
               }
               href="/services"
@@ -80,9 +80,9 @@ const Header = ({css}: {css?: string}) => {
               Services
               <ChevronDown className="inline" />
             </a>
-            <div className="dropdown-content">
+            <div className="dropdown-content !z-10">
               {serviceList.map((ser, index) => (
-                <div key={ser.url} className="py-2 font-normal">
+                <div key={ser.url} className="py-1 font-normal">
                   <a href={ser.url}>{ser.name}</a>
                 </div>
               ))}

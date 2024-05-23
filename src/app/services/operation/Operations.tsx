@@ -5,7 +5,7 @@ import operation1 from "@/../public/assets/images/operation1.png";
 import operation2 from "@/../public/assets/images/operation2.png";
 import operation3 from "@/../public/assets/images/operation3.png";
 import operation4 from "@/../public/assets/images/operation4.png";
-import {serviceList} from "../page";
+import {serviceList} from "@/app/page";
 import classNames from "classnames";
 
 const Operations = () => {
