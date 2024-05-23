@@ -3,7 +3,7 @@ import facility1 from "@/../public/assets/images/facility1.png";
 import facility2 from "@/../public/assets/images/facility2.png";
 import facility3 from "@/../public/assets/images/facility3.png";
 import facility4 from "@/../public/assets/images/facility4.png";
-import {serviceList} from "../page";
+import {serviceList} from "../../page";
 import classNames from "classnames";
 
 const Service = () => {

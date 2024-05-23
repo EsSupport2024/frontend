@@ -1,3 +1,4 @@
+import WhatsApp from "@/components/WhatsApp";
 import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
@@ -13,6 +14,7 @@ const Page = () => {
       </div>
       <GetInTouch />
       <Footer />
+      <WhatsApp />
     </>
   );
 };

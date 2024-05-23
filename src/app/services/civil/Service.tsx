@@ -3,7 +3,7 @@ import civil1 from "@/../public/assets/images/civil1.png";
 import civil2 from "@/../public/assets/images/civil2.png";
 import civil3 from "@/../public/assets/images/civil3.png";
 import civil4 from "@/../public/assets/images/civil4.png";
-import {serviceList} from "../page";
+import {serviceList} from "../../page";
 import classNames from "classnames";
 
 const Service = () => {
