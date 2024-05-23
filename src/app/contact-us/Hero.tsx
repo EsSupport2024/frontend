@@ -5,6 +5,7 @@ import facebook from "@/../public/assets/icons/facebook.png";
 import twitter from "@/../public/assets/icons/twitter.png";
 import linkedin from "@/../public/assets/icons/linkedin.png";
 import insta from "@/../public/assets/icons/insta.png";
+import ContactForm from "./ContactForm";
 
 const Hero = () => {
   return (
@@ -21,64 +22,7 @@ const Hero = () => {
             Have questions or feedback? We are here to help. Send us a message
             we’ll respond within 24 hours
           </div>
-
-          <form className="border-t-2 border-black pt-5 mt-5 space-y-3">
-            <div className="flex justify-between gap-10">
-              <div className="w-full">
-                <label className="mb-2 text-sm font-bold text-gray-900">
-                  First Name
-                </label>
-                <input
-                  type="text"
-                  id="firstName"
-                  className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  placeholder="First Name"
-                  required
-                />
-              </div>
-              <div className="w-full">
-                <label className="mb-2 text-sm font-bold text-gray-900">
-                  Last Name
-                </label>
-                <input
-                  type="text"
-                  id="lastName"
-                  className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  placeholder="Last Name"
-                  required
-                />
-              </div>
-            </div>
-            <div>
-              <label className="mb-2 text-sm font-bold text-gray-900">
-                Email Address
-              </label>
-              <input
-                type="email"
-                id="email"
-                className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
-                placeholder="name@gmail.com"
-                required
-              />
-            </div>
-            <div>
-              <label className="mb-2 text-sm font-bold text-gray-900">
-                Messages
-              </label>
-              <textarea
-                id="message"
-                className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 md:h-36"
-                placeholder="Type here..."
-                required
-              />
-            </div>
-            <button
-              type="submit"
-              className="text-white bg-primaryBlue w-full focus:ring-4 focus:outline-none font-medium rounded-lg text-sm md:text-lg px-5 py-2.5 text-center"
-            >
-              Submit
-            </button>
-          </form>
+          <ContactForm />
         </div>
         <div className="bg-[#FF7100] md:p-10 p-5 text-white flex gap-5 flex-col justify-around">
           <div className="text-[20px] mt-2 md:text-[44px] font-bold ">Info</div>

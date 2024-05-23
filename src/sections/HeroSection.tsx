@@ -13,7 +13,7 @@ const HeroSection = () => {
 
   return (
     <section className="container mx-auto md:flex md:justify-between md:px-20 px-4 py-16 md:py-36">
-      <div className="text-center md:text-left space-y-3 md:space-y-10 md:max-w-[590px] p-8 md:p-0">
+      <div className="text-center md:text-left space-y-3 md:space-y-10 md:max-w-[590px] p-8 md:p-0 animate-slideInFromLeft">
         <div className="text-[20px] md:text-[44px] font-bold text-primaryLightBlue">
           <div>Elevate excellence with</div>
           <span className="text-2xl md:text-[46px] text-primaryBlue">
@@ -39,7 +39,7 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-      <div className="px-11 md:p-0 mt-10 md:mt-0">
+      <div className="px-11 md:p-0 mt-10 md:mt-0 animate-slideInFromBottom">
         <div
           className="relative big-box"
           style={

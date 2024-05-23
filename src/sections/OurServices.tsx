@@ -9,12 +9,12 @@ const OurServices = () => {
   return (
     <section className="bg-lightOrange">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
-        <div className="text-center pb-5">
+        <div className="text-center pb-5" id="service-title">
           <div className="md:text-left font-bold md:text-4xl">Our Services</div>
           <div className="md:text-left">ALL-IN-ONE SOLUTION</div>
         </div>
         <div className="flex items-center flex-col md:flex-row space-y-5 md:space-y-0">
-          <div className="space-y-5 md:space-y-0">
+          <div className="space-y-5 md:space-y-0" id="service-1">
             <div
               style={{"--image-url": `url(${service1.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
@@ -41,6 +41,7 @@ const OurServices = () => {
             <div
               style={{"--image-url": `url(${service2.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
+              id="service-2"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">
@@ -61,6 +62,7 @@ const OurServices = () => {
             <div
               style={{"--image-url": `url(${service4.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
+              id="service-3"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">
@@ -83,6 +85,7 @@ const OurServices = () => {
             <div
               style={{"--image-url": `url(${service3.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
+              id="service-4"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">
@@ -103,6 +106,7 @@ const OurServices = () => {
             <div
               style={{"--image-url": `url(${service5.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
+              id="service-5"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">
@@ -125,6 +129,7 @@ const OurServices = () => {
             <div
               style={{"--image-url": `url(${service6.src})`} as {}}
               className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px]"
+              id="service-6"
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">

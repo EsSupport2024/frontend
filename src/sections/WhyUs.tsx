@@ -7,7 +7,7 @@ import invest from "@/../public/assets/icons/invest.png";
 const WhyUs = () => {
   return (
     <section className="bg-darkGray text-white">
-      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
+      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32 animate-slideInFromBottom">
         <div className="text-center md:text-left font-bold md:text-4xl">
           Why choose us?
         </div>
