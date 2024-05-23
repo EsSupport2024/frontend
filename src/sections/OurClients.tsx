@@ -36,11 +36,14 @@ const OurClients = () => {
   return (
     <section className="bg-lightOrange">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
-        <div className="text-center md:text-left font-bold md:text-4xl">
+        <div
+          className="text-center md:text-left font-bold md:text-4xl"
+          id="client"
+        >
           Our Clients
         </div>
         <div className="mt-10 marquee-container">
-          <div className="= h-[42px] space-x-4 no-scrollbar marquee">
+          <div className="h-[42px] space-x-8 no-scrollbar marquee">
             {partnerList.map((partner, key) => (
               <img src={partner} key={key} />
             ))}

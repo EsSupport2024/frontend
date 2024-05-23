@@ -19,7 +19,7 @@ const GetInTouch = ({
           style={{"--image-url": `url(${getInTouch.src})`} as {}}
           className="bg-[image:var(--image-url)] md:h-[375px] h-36 flex items-center justify-center text-[#EFFEFF] bg-[#FF7100] rounded-lg"
         >
-          <div className="text-center md:space-y-10 space-y-5">
+          <div className="text-center md:space-y-10 space-y-5" id="connectNow">
             <div>
               <div className="md:text-[48px] font-bold">Get in Touch</div>
               <div className="text-[9px] md:text-base">
