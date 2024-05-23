@@ -5,7 +5,7 @@ import "../app/globals.css";
 
 const HeroSection = () => {
   return (
-    <section className="container mx-auto md:flex md:justify-between md:px-20 px-4 py-16 md:py-36">
+    <section className="container mx-auto md:flex md:justify-between md:items-center md:px-20 px-4 py-16 md:py-32">
       <div className="text-center md:text-left space-y-3 md:space-y-10 md:max-w-[590px] p-8 md:p-0 animate-slideInFromLeft">
         <div className="text-[20px] md:text-[44px] font-bold text-primaryLightBlue">
           <div>Elevate excellence with</div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
         <img
           src={image1.src}
           alt="management group discussion"
-          className="rounded-md m-auto w-[266px] md:w-[660px]"
+          className="rounded-md m-auto w-[266px] md:w-[700px]"
         />
       </div>
     </section>
