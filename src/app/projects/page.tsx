@@ -7,6 +7,7 @@ import React from "react";
 import Hero from "./Hero";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.essupport.in/projects"),
   title: "Our Projects | ES Support",
   description:
     "Explore the diverse range of projects completed by ES Support. From facility management to IT services, see how we've helped businesses achieve their goals.",

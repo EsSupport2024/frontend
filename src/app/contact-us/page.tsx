@@ -8,6 +8,7 @@ import Hero from "./Hero";
 import Locations from "./Locations";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.essupport.in/contact-us"),
   title: "Contact Us | ES Support - Get in Touch for Professional Services",
   description:
     "Reach out to ES Support for professional facility management, MEP services, IT services, security services, operation & maintenance, and civil & maintenance. Contact us today!",

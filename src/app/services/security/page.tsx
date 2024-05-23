@@ -6,8 +6,10 @@ import React from "react";
 import security from "@/../public/assets/images/security.png";
 import Hero from "./Hero";
 import Service from "./Service";
+import WhatsApp from "@/components/WhatsApp";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.essupport.in/services/"),
   title: "",
   description: "",
   keywords: "",
@@ -19,7 +21,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
-import WhatsApp from "@/components/WhatsApp";
 
 const Page = () => {
   return (

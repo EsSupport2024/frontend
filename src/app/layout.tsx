@@ -5,11 +5,21 @@ import "./globals.css";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.essupport.in"),
   title: "Best Facility Management Solutions | ES Support",
   description:
     "Discover top-notch facility management, MEP services, IT services, security services, operation & maintenance, and civil & maintenance solutions with ES Support.",
-  keywords:
-    "facility management, MEP services, IT services, security services, operation and maintenance, civil and maintenance",
+  keywords: [
+    "facility",
+    "management",
+    "MEP services",
+    "IT",
+    "services",
+    "security",
+    "operation",
+    "maintenance",
+    "civil",
+  ],
   robots: "index, follow",
   openGraph: {
     title: "Facility Management Solutions | ES Support",
@@ -46,10 +56,7 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="canonical" href="https://www.essupport.in" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#2b5797" />
-        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

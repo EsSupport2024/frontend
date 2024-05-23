@@ -11,11 +11,20 @@ import Location from "./Location";
 import Certification from "./Certification";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.essupport.in/about"),
   title: "About ES Support | Leading Management Solutions Provider",
   description:
     "Learn about ES Support, a leading provider of facility management, MEP services, IT services, security services, operation & maintenance, and civil & maintenance solutions. Our mission is to deliver top-notch services that help businesses thrive.",
-  keywords:
-    "about ES Support, facility management, MEP services, IT services, security services, operation and maintenance, civil and maintenance",
+  keywords: [
+    "about",
+    "ES Support",
+    "facility management",
+    "MEP services",
+    "IT services",
+    "security services",
+    "operation and maintenance",
+    "civil and maintenance",
+  ],
   robots: "index, follow",
   openGraph: {
     title: "About ES Support | Leading Management Solutions Provider",
