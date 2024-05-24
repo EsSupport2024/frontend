@@ -35,9 +35,9 @@ const partnerList = [
 const OurClients = () => {
   return (
     <section className="bg-lightOrange">
-      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
+      <div className="container mx-auto px-4 py-16 lg:px-24 lg:py-32">
         <div
-          className="text-center md:text-left font-bold md:text-4xl"
+          className="text-center lg:text-left font-bold lg:text-4xl"
           id="client"
         >
           Our Clients

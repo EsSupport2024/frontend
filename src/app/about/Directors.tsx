@@ -4,27 +4,27 @@ import director from "@/../public/assets/images/director.png";
 const Directors = () => {
   return (
     <section className="bg-lightOrange" id="director">
-      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
-        <div className="text-center pb-5 md:hidden sm:block">
+      <div className="container mx-auto px-4 py-16 lg:px-24 lg:py-32">
+        <div className="text-center pb-5 lg:hidden sm:block">
           <div className="font-bold">From the Director&apos;s desk</div>
           <div className="text-xs font-bold">
             Kishlay Kumar, Founder & Director of ES Support.
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 justify-center md:items-end w-3/4 md:w-full m-auto">
-          <div className="relative h-[251px] md:h-80 md:w-[309px]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center lg:items-end w-3/4 lg:w-full m-auto">
+          <div className="relative h-[251px] lg:h-80 lg:w-[309px]">
             <div className="absolute h-full w-20 bg-black rounded-t-lg"></div>
             <img
               src={director.src}
-              className="md:w-60 w-44 m-auto md:h-72 h-52 z-10 absolute bottom-0 left-2/4 -translate-x-2/4"
+              className="lg:w-60 w-44 m-auto lg:h-72 h-52 z-10 absolute bottom-0 left-2/4 -translate-x-2/4"
             />
             <div className="absolute h-3/4 w-20 bg-[#E2FCFF] rounded-t-lg right-0 bottom-0"></div>
           </div>
-          <div className="space-y-5 text-[9px] md:text-base text-justify mt-10 md:col-span-2">
-            <div className="text-4xl text-black hidden md:block font-bold">
+          <div className="space-y-5 text-[9px] lg:text-base text-justify mt-10 lg:col-span-2">
+            <div className="text-4xl text-black hidden lg:block font-bold">
               From the Director&apos;s desk
             </div>
-            <div className="text-lg text-black hidden md:block font-bold">
+            <div className="text-lg text-black hidden lg:block font-bold">
               Kishlay Kumar, Founder & Director of ES Support.
             </div>
             <div>

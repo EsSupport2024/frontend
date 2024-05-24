@@ -2,15 +2,15 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto md:px-20 px-4 py-16 md:pt-36 text-center">
-      <div className="mx-auto text-[9px] font-bold md:text-base">About Us</div>
-      <div className="text-[20px] mt-2 md:text-[44px] font-bold ">
+    <section className="container mx-auto lg:px-20 px-4 py-16 lg:pt-36 text-center">
+      <div className="mx-auto text-[9px] font-bold lg:text-base">About Us</div>
+      <div className="text-[20px] mt-2 lg:text-[44px] font-bold ">
         Our Services
       </div>
-      <div className="mx-auto mt-2 md:mt-5 text-[9px] font-bold md:text-base">
+      <div className="mx-auto mt-2 lg:mt-5 text-[9px] font-bold lg:text-base">
         Explore the Depths of Operational Excellence with Comprehensive Services
       </div>
-      <div className="mx-auto mt-5 md:mt-10 text-[9px] w-3/4 md:text-base">
+      <div className="mx-auto mt-5 lg:mt-10 text-[9px] w-3/4 lg:text-base">
         Elevating Work Environments Across the Nation through Professional
         Facilities Management Established in January 2022, ES Support has firmly
         established itself in India as a delivering professional solutions

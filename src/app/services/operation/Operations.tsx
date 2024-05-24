@@ -11,13 +11,13 @@ import classNames from "classnames";
 const Operations = () => {
   return (
     <section className="bg-lightOrange">
-      <div className="container mx-auto px-4 pt-16 md:px-24 md:pt-32">
-        <div className="md:grid md:grid-cols-2 md:gap-10">
+      <div className="container mx-auto px-4 pt-16 lg:px-24 lg:pt-32">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-10">
           <div>
-            <div className="md:text-4xl text-base font-bold text-center md:text-left">
+            <div className="lg:text-4xl text-base font-bold text-center lg:text-left">
               Our services
             </div>
-            <div className="mt-5 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
+            <div className="mt-5 lg:mt-10 text-[9px] w-3/4 lg:w-full lg:text-base text-justify m-auto lg:m-0">
               Dive into unparalleled technical prowess with ES SUPPORT. Our
               commitment is to align seamlessly with the unique needs of
               enterprises and organizations of all sizes, delivering a diverse
@@ -26,23 +26,23 @@ const Operations = () => {
               services – we embark on a journey with our clients, determined to
               exceed expectations and deliver desired results.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:w-full lg:text-base text-justify m-auto lg:m-0">
               With a seasoned technical team boasting extensive experience
               across various industries, we tailor solutions to the distinct
               nuances of our client&apos;s industries. From comprehensive fleet
               management to robust quality assurance, ES SUPPORT ensures clients
               not only meet but exceed their operational goals.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
               Choose ES SUPPORT for a transformative journey towards operational
               excellence, where technical expertise meets unwavering commitment
               to client success.
             </div>
-            <div className="w-3/4 md:w-full m-auto">
+            <div className="w-3/4 lg:w-full m-auto">
               <Accordion title="A. HVAC plant maintenance">
                 <AccordionItem>
                   <div className="space-y-5">
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       Discover our specialized HVAC(HEATING VENTILATION AND AIR
                       CONDITIONING SERVICE) plant maintenance services at ES
                       SUPPORT, surpassing conventional solutions. Our skilled
@@ -51,7 +51,7 @@ const Operations = () => {
                       repairs and optimization, we prioritize seamless
                       operation.
                     </div>
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       With precision and attention to detail, our approach to
                       HVAC maintenance acknowledges the pivotal role these
                       systems play in maintaining comfort and productivity.
@@ -59,14 +59,14 @@ const Operations = () => {
                       detect potential issues early, minimizing downtime and
                       costly repairs.
                     </div>
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       At ES SUPPORT, we customize our HVAC plant maintenance
                       services to suit your facility&apos;s unique needs,
                       whether commercial, industrial, or residential. Our aim is
                       to enhance energy efficiency, indoor air quality, and
                       equipment lifespan.
                     </div>
-                    <div className="text-[9px] md:text-base">
+                    <div className="text-[9px] lg:text-base">
                       <div>Our HVAC services include:</div>
                       <li className="list-disc">
                         AMC (Annual Maintenance Contract)
@@ -85,7 +85,7 @@ const Operations = () => {
               <Accordion title="B. Substation maintenance">
                 <AccordionItem>
                   <div className="space-y-5">
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       Enhance your electrical infrastructure with ES
                       Support&apos;s premier Maintenance Solutions. Specializing
                       in comprehensive electrical maintenance, our skilled
@@ -97,7 +97,7 @@ const Operations = () => {
                       electrical systems and are committed to extending their
                       operational life.
                     </div>
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       Our comprehensive approach includes routine inspections,
                       proactive repairs, and advanced diagnostics to safeguard
                       your critical assets. Recognizing the importance of
@@ -105,14 +105,14 @@ const Operations = () => {
                       techniques to address issues before they impact
                       operations.
                     </div>
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       At ES Support, we understand the unique challenges of each
                       substation. Our tailored solutions cater to the specific
                       needs of your facility, whether utility-scale, industrial,
                       or commercial. Partner with us for resilience, efficiency,
                       and longevity in your electrical infrastructure.
                     </div>
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       Choose ES Support for trusted Substation Maintenance,
                       where technical expertise meets operational excellence.
                       With us, your electrical systems are in capable hands,
@@ -124,7 +124,7 @@ const Operations = () => {
               <Accordion title="C. Electric maintenance">
                 <AccordionItem>
                   <div className="space-y-5">
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       Enhance your electrical infrastructure with ES
                       Support&apos;s premier Maintenance Solutions. Specializing
                       in comprehensive electrical maintenance, our skilled
@@ -136,7 +136,7 @@ const Operations = () => {
                       electrical systems and are committed to extending their
                       operational life.
                     </div>
-                    <div className="text-[9px] md:text-base w-full text-justify">
+                    <div className="text-[9px] lg:text-base w-full text-justify">
                       ES Support tailors solutions to your unique needs, whether
                       for power distribution panels, lighting systems, or other
                       components. Choose us as your trusted partner for
@@ -149,7 +149,7 @@ const Operations = () => {
               </Accordion>
               <Accordion title="D. Lifts/elevator maintenance">
                 <AccordionItem>
-                  <div className="text-[9px] md:text-base w-full text-justify">
+                  <div className="text-[9px] lg:text-base w-full text-justify">
                     We recognize the pivotal role elevators and lifts play in
                     the smooth operation of your commercial or residential
                     premises. Our specialized elevator maintenance services are
@@ -161,7 +161,7 @@ const Operations = () => {
               </Accordion>
               <Accordion title="E. CCTV maintenance">
                 <AccordionItem>
-                  <div className="text-[9px] md:text-base w-full text-justify">
+                  <div className="text-[9px] lg:text-base w-full text-justify">
                     At our company, we understand the critical importance of
                     maintaining a secure and vigilant environment for your
                     business or residential space. Our dedicated CCTV
@@ -173,7 +173,7 @@ const Operations = () => {
               </Accordion>
               <Accordion title="F. Fire fighting maintenance">
                 <AccordionItem>
-                  <div className="text-[9px] md:text-base w-full text-justify">
+                  <div className="text-[9px] lg:text-base w-full text-justify">
                     we understand the critical significance of sustaining a
                     strong and dependable fire fighting system to protect lives
                     and property. Our unwavering commitment to fire fighting
@@ -185,7 +185,7 @@ const Operations = () => {
               </Accordion>
               <Accordion title="H. Sewage treatment plant maintenance">
                 <AccordionItem>
-                  <div className="text-[9px] md:text-base w-full text-justify">
+                  <div className="text-[9px] lg:text-base w-full text-justify">
                     At ES Support, we understand the critical role that sewage
                     treatment plants play in maintaining environmental
                     sustainability and public health. Our specialized sewage
@@ -197,7 +197,7 @@ const Operations = () => {
               </Accordion>
               <Accordion title="I. Water maintenance">
                 <AccordionItem>
-                  <div className="text-[9px] md:text-base w-full text-justify">
+                  <div className="text-[9px] lg:text-base w-full text-justify">
                     At ES Support, we recognize the vital role that water
                     treatment plants play in ensuring access to clean and safe
                     water. Our specialized water treatment plant maintenance
@@ -208,8 +208,8 @@ const Operations = () => {
                 </AccordionItem>
               </Accordion>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 pb-20 pt-10 gap-2">
-              <div className="md:col-span-2">
+            <div className="grid grid-cols-1 lg:grid-cols-3 pb-20 pt-10 gap-2">
+              <div className="lg:col-span-2">
                 <img src={operation1.src} />
               </div>
               <div>
@@ -218,14 +218,14 @@ const Operations = () => {
               <div>
                 <img src={operation3.src} className="h-full" />
               </div>
-              <div className="md:col-span-2">
+              <div className="lg:col-span-2">
                 <img src={operation2.src} />
               </div>
             </div>
           </div>
-          <div className="border-l-4 border-orange rounded-box relative hidden md:block">
+          <div className="border-l-4 border-orange rounded-box relative hidden lg:block">
             <div className="flex flex-col gap-5 h-full">
-              <div className="h-[200px] flex items-end justify-start p-10 md:text-2xl font-bold">
+              <div className="h-[200px] flex items-end justify-start p-10 lg:text-2xl font-bold">
                 Our Services
               </div>
               {serviceList.map((item, idx) => (

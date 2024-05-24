@@ -35,7 +35,7 @@ const Page = () => {
         <Hero />
       </div>
       <Operations />
-      <GetInTouch containerCss="container mx-auto px-4 pb-16 md:px-24 md:pb-32" />
+      <GetInTouch containerCss="container mx-auto px-4 pb-16 lg:px-24 lg:pb-32" />
       <Footer />
       <WhatsApp />
     </>

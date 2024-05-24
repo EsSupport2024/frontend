@@ -17,25 +17,25 @@ const Header = ({css}: {css?: string}) => {
 
   return (
     <div
-      className={css || "h-14 md:h-24 shadow-lg py-5 md:animate-slideInFromTop"}
+      className={css || "h-14 lg:h-24 shadow-lg py-5 lg:animate-slideInFromTop"}
     >
       <div className="container px-4 m-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-[25px] md:h-auto md:w-[54px]">
+          <div className="w-[25px] lg:h-auto lg:w-[54px]">
             <img
               alt="logo"
               src={Logo.src}
-              className="w-[25px] md:h-auto md:w-[54px]"
+              className="w-[25px] lg:h-auto lg:w-[54px]"
             />
           </div>
           <div>
-            <div className="font-bold md:text-xl text-xs">Es-support</div>
-            <div className="font-medium md:text-[9px] text-[5px]">
+            <div className="font-bold lg:text-xl text-xs">Es-support</div>
+            <div className="font-medium lg:text-[9px] text-[5px]">
               solution upto satisfaction
             </div>
           </div>
         </div>
-        <div className="md:flex items-center gap-10 font-bold text-lg hidden">
+        <div className="lg:flex items-center gap-10 font-bold text-lg hidden">
           <Link
             className={pathname === "/" ? "border-b border-black" : ""}
             href="/"
@@ -103,7 +103,7 @@ const Header = ({css}: {css?: string}) => {
             Contact Us
           </a>
         </div>
-        <button className="md:hidden" onClick={() => setMenu(true)}>
+        <button className="lg:hidden" onClick={() => setMenu(true)}>
           <AlignJustify />
         </button>
       </div>

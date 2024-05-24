@@ -9,13 +9,13 @@ import classNames from "classnames";
 const Service = () => {
   return (
     <section className="bg-lightOrange">
-      <div className="container mx-auto px-4 pt-16 md:px-24 md:pt-32">
-        <div className="md:grid md:grid-cols-2 md:gap-10">
+      <div className="container mx-auto px-4 pt-16 lg:px-24 lg:pt-32">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-10">
           <div>
-            <div className="md:text-4xl text-base font-bold text-center md:text-left">
+            <div className="lg:text-4xl text-base font-bold text-center lg:text-left">
               Our services
             </div>
-            <div className="mt-5 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
+            <div className="mt-5 lg:mt-10 text-[9px] w-3/4 lg:w-full lg:text-base text-justify m-auto lg:m-0">
               Elevate Your Infrastructure with ES Support&apos;s Cutting-Edge
               MEP Services. At ES Support, we take pride in delivering
               comprehensive Mechanical, Electrical, and Plumbing (MEP) services
@@ -24,7 +24,7 @@ const Service = () => {
               sustainability of your facilities, ensuring seamless integration
               and performance across all MEP systems.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:w-full lg:text-base text-justify m-auto lg:m-0">
               Mechanical services, encompassing HVAC systems and more, are
               tailored to create comfortable and energy-efficient environments.
               Our Electrical services ensure reliable power distribution,
@@ -33,7 +33,7 @@ const Service = () => {
               services cover everything from water supply to drainage,
               emphasizing efficiency and adherence to industry standards.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
               ES Support&apos;s MEP services are characterized by a commitment
               to innovation and technical excellence. Our experienced engineers
               and technicians collaborate to provide customized solutions that
@@ -41,7 +41,7 @@ const Service = () => {
               it&apos;s a commercial space, industrial facility, or residential
               development.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
               By choosing ES Support for MEP services, you are opting for a
               partner dedicated to enhancing the overall performance and
               sustainability of your infrastructure. With a focus on quality,
@@ -49,14 +49,14 @@ const Service = () => {
               systems operate seamlessly, contributing to the long-term success
               of your projects.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
               Experience the synergy of cutting-edge technology and unparalleled
               expertise with ES Support&apos;s MEP services. Trust us to be your
               reliable partner in building and maintaining infrastructures that
               stand the test of time.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
-              <div className="md:mx-0 mt-2 md:mt-5 text-[9px] font-bold md:text-base">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
+              <div className="lg:mx-0 mt-2 lg:mt-5 text-[9px] font-bold lg:text-base">
                 Our MEP services includes
               </div>
               <ul className="ml-5">
@@ -74,8 +74,8 @@ const Service = () => {
                 </li>
               </ul>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 pb-20 pt-10 gap-2">
-              <div className="md:col-span-2">
+            <div className="grid grid-cols-1 lg:grid-cols-3 pb-20 pt-10 gap-2">
+              <div className="lg:col-span-2">
                 <img src={mep1.src} />
               </div>
               <div>
@@ -84,14 +84,14 @@ const Service = () => {
               <div>
                 <img src={mep3.src} className="h-full" />
               </div>
-              <div className="md:col-span-2">
+              <div className="lg:col-span-2">
                 <img src={mep2.src} />
               </div>
             </div>
           </div>
-          <div className="border-l-4 border-orange rounded-box relative hidden md:block">
+          <div className="border-l-4 border-orange rounded-box relative hidden lg:block">
             <div className="flex flex-col gap-5 h-full">
-              <div className="h-[200px] flex items-end justify-start p-10 md:text-2xl font-bold">
+              <div className="h-[200px] flex items-end justify-start p-10 lg:text-2xl font-bold">
                 Our Services
               </div>
               {serviceList.map((item, idx) => (
