@@ -17,7 +17,7 @@ const Header = ({css}: {css?: string}) => {
 
   return (
     <div
-      className={css || "h-14 md:h-24 shadow-lg py-5 animate-slideInFromTop"}
+      className={css || "h-14 md:h-24 shadow-lg py-5 md:animate-slideInFromTop"}
     >
       <div className="container px-4 m-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
@@ -108,7 +108,7 @@ const Header = ({css}: {css?: string}) => {
         </button>
       </div>
       {menu && (
-        <div className="w-full h-[800px] bg-primaryBlue text-white p-20 absolute z-20 top-0 left-0 space-y-10">
+        <div className="w-full h-[800px] bg-primaryBlue text-white p-20 absolute z-40 top-0 left-0 space-y-10">
           <X
             className="absolute text-white top-5 right-5 cursor-pointer"
             onClick={() => setMenu(false)}
