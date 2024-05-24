@@ -9,13 +9,13 @@ import ContactForm from "./ContactForm";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto md:px-20 px-4 py-16 md:pt-36">
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-40">
+    <section className="container mx-auto lg:px-20 px-4 py-16 lg:pt-36">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-40">
         <div>
-          <div className="mx-auto text-[9px] font-bold md:text-base">
+          <div className="mx-auto text-[9px] font-bold lg:text-base">
             Get in Touch
           </div>
-          <div className="text-[20px] mt-2 md:text-[44px] font-bold ">
+          <div className="text-[20px] mt-2 lg:text-[44px] font-bold ">
             Let’s Chat, Reach Out to Us
           </div>
           <div className="mt-2 w-3/4">
@@ -24,8 +24,8 @@ const Hero = () => {
           </div>
           <ContactForm />
         </div>
-        <div className="bg-[#FF7100] md:p-10 p-5 text-white flex gap-5 flex-col justify-around">
-          <div className="text-[20px] mt-2 md:text-[44px] font-bold ">Info</div>
+        <div className="bg-[#FF7100] lg:p-10 p-5 text-white flex gap-5 flex-col justify-around">
+          <div className="text-[20px] mt-2 lg:text-[44px] font-bold ">Info</div>
           <div className="">
             <Mail className="inline " />
             <label className="ml-2">support@essupport.in</label>
@@ -45,7 +45,7 @@ const Hero = () => {
             <label className="ml-2">09:00 - 18:00</label>
           </div>
           <div>
-            <div className="md:text-lg font-semibold">Daily updates</div>
+            <div className="lg:text-lg font-semibold">Daily updates</div>
             <div className="flex gap-3">
               <img src={facebook.src} width={30} />
               <img src={twitter.src} width={30} />

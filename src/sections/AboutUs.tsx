@@ -4,14 +4,14 @@ const AboutUs = () => {
   return (
     <div className="bg-orange text-white">
       <div
-        className="container mx-auto px-4 py-16 md:px-24 md:py-32"
+        className="container mx-auto px-4 py-16 lg:px-24 lg:py-32"
         id="about-us"
       >
-        <div className="text-center md:text-left font-bold md:text-4xl">
+        <div className="text-center lg:text-left font-bold lg:text-4xl">
           About us
         </div>
 
-        <div className="text-center text-[9px] md:text-base md:text-justify mt-10">
+        <div className="text-center text-[9px] lg:text-base lg:text-justify mt-10">
           Elevating work environments across the nation through professional
           facilities management. Established in January 2022, ES Support has
           firmly established itself in India as a delivering professional

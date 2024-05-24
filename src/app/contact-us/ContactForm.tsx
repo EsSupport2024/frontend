@@ -44,6 +44,7 @@ const ContactForm = () => {
     <form
       className="border-t-2 border-black pt-5 mt-5 space-y-3"
       action="https://docs.google.com/forms/d/e/1FAIpQLScIJfNAPdNrOffv35V4qqzGpOY6jqXGxpbtrptH8eumqW7Ucw/formResponse"
+      method="POST"
       // onSubmit={handleFormSubmit}
       id="contactForm"
     >
@@ -56,7 +57,7 @@ const ContactForm = () => {
             type="text"
             id="firstName"
             name="entry.364763623"
-            className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="First Name"
             required
           />
@@ -69,7 +70,7 @@ const ContactForm = () => {
             type="text"
             id="lastName"
             name="entry.1615064793"
-            className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="Last Name"
             required
           />
@@ -83,7 +84,7 @@ const ContactForm = () => {
           type="email"
           id="email"
           name="entry.25546596"
-          className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
+          className="border rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
           placeholder="name@gmail.com"
           required
         />
@@ -93,14 +94,14 @@ const ContactForm = () => {
         <textarea
           id="message"
           name="entry.1913037194"
-          className=" border rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 md:h-36"
+          className="border rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5 lg:h-36"
           placeholder="Type here..."
           required
         />
       </div>
       <button
         type="submit"
-        className="text-white bg-primaryBlue w-full focus:ring-4 focus:outline-none font-medium rounded-lg text-sm md:text-lg px-5 py-2.5 text-center"
+        className="text-white bg-primaryBlue w-full focus:ring-4 focus:outline-none font-medium rounded-lg text-sm lg:text-lg px-5 py-2.5 text-center"
       >
         Submit
       </button>

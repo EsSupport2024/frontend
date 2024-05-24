@@ -16,7 +16,7 @@ const Accordion = ({
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex gap-5 items-end w-full"
       >
-        <span className="md:mx-0 mt-2 md:mt-5 text-[9px] font-bold md:text-base">
+        <span className="lg:mx-0 mt-2 lg:mt-5 text-[9px] font-bold lg:text-base">
           {title}
         </span>
         <svg

@@ -7,16 +7,16 @@ import WhatsApp from "@/components/WhatsApp";
 
 const LostSection = () => {
   return (
-    <section className="container mx-auto md:px-20 px-4 text-center md:mt-40 space-y-5">
+    <section className="container mx-auto lg:px-20 px-4 text-center lg:mt-40 space-y-5">
       <div>
         <img alt="logo" src={Logo.src} className="m-auto" />
       </div>
       <div>
         <span className="bg-[#FFFFFF] rounded-md px-4 py-2">Processing...</span>
       </div>
-      <div className="text-[20px] mt-2 md:text-[44px] font-bold ">
+      <div className="text-[20px] mt-2 lg:text-[44px] font-bold ">
         Coming Soon
-        <div className="mx-auto text-[9px] font-normal md:text-base">
+        <div className="mx-auto text-[9px] font-normal lg:text-base">
           Sorry, the page you are looking for doesn’t exist or has been moved.
         </div>
       </div>

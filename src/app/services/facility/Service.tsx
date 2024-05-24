@@ -9,13 +9,13 @@ import classNames from "classnames";
 const Service = () => {
   return (
     <section className="bg-lightOrange">
-      <div className="container mx-auto px-4 pt-16 md:px-24 md:pt-32">
-        <div className="md:grid md:grid-cols-2 md:gap-10">
+      <div className="container mx-auto px-4 pt-16 lg:px-24 lg:pt-32">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-10">
           <div>
-            <div className="md:text-4xl text-base font-bold text-center md:text-left">
+            <div className="lg:text-4xl text-base font-bold text-center lg:text-left">
               Our services
             </div>
-            <div className="mt-5 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
+            <div className="mt-5 lg:mt-10 text-[9px] w-3/4 lg:w-full lg:text-base text-justify m-auto lg:m-0">
               Elevate Your Workspace with ES Support&apos;s Exceptional Soft
               Services in Facility Management. At ES Support, we redefine
               excellence in Facility Management through our comprehensive Soft
@@ -24,7 +24,7 @@ const Service = () => {
               crucial services that contribute to the overall well-being,
               productivity, and aesthetics of your facility.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:w-full lg:text-base text-justify m-auto lg:m-0">
               Our Soft Services portfolio includes janitorial and cleaning
               services, landscaping, pest control, waste management, and more.
               With a commitment to excellence, ES Support ensures that your
@@ -34,14 +34,14 @@ const Service = () => {
               requirements, offering flexibility and scalability to meet the
               unique needs of your business.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
               ES Support believes in creating environments that leave a lasting
               positive impression on occupants and visitors alike. Our Soft
               Services are designed to enhance the overall experience within
               your facility, promoting cleanliness, comfort, and a welcoming
               atmosphere.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
               Partner with ES Support for Soft Services in Facility Management
               and experience a transformation in your workspace. With our
               commitment to quality and customer satisfaction, we ensure that
@@ -50,8 +50,8 @@ const Service = () => {
               excellence in Soft Services, making your workspace an optimal and
               inviting place for everyone.
             </div>
-            <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
-              <div className="md:mx-0 mt-2 md:mt-5 text-[9px] font-bold md:text-base">
+            <div className="mt-3 lg:mt-10 text-[9px] w-3/4 lg:text-base lg:w-full text-justify m-auto lg:m-0">
+              <div className="lg:mx-0 mt-2 lg:mt-5 text-[9px] font-bold lg:text-base">
                 Our Facility Management -SOFT SERVICES includes
               </div>
               <ul className="ml-5 font-semibold">
@@ -65,8 +65,8 @@ const Service = () => {
                 <li className="list-disc">Carpet & Upholstery services</li>
               </ul>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 pb-20 pt-10 gap-2">
-              <div className="md:col-span-2">
+            <div className="grid grid-cols-1 lg:grid-cols-3 pb-20 pt-10 gap-2">
+              <div className="lg:col-span-2">
                 <img src={facility1.src} />
               </div>
               <div>
@@ -75,14 +75,14 @@ const Service = () => {
               <div>
                 <img src={facility3.src} className="h-full" />
               </div>
-              <div className="md:col-span-2">
+              <div className="lg:col-span-2">
                 <img src={facility4.src} />
               </div>
             </div>
           </div>
-          <div className="border-l-4 border-orange rounded-box relative hidden md:block">
+          <div className="border-l-4 border-orange rounded-box relative hidden lg:block">
             <div className="flex flex-col gap-5 h-full">
-              <div className="h-[200px] flex items-end justify-start p-10 md:text-2xl font-bold">
+              <div className="h-[200px] flex items-end justify-start p-10 lg:text-2xl font-bold">
                 Our Services
               </div>
               {serviceList.map((item, idx) => (
