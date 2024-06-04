@@ -85,10 +85,22 @@ const Footer = () => {
         <div className="space-y-4">
           <div className="font-semibold lg:text-lg text-[10px]">Socials</div>
           <div className="flex items-center gap-2 text-[9px] lg:text-base">
-            <img src={facebook.src} width={30} />
-            <img src={twitter.src} width={30} />
-            <img src={insta.src} width={30} />
-            <img src={linkedin.src} width={30} />
+            <a href="https://www.facebook.com/essupport.in" target="_blank">
+              <img src={facebook.src} width={30} />
+            </a>
+
+            <a href="https://x.com/essupport_in" target="_blank">
+              <img src={twitter.src} width={30} />
+            </a>
+            <a href="https://www.instagram.com/essupport.in" target="_blank">
+              <img src={insta.src} width={30} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/essupport-in/"
+              target="_blank"
+            >
+              <img src={linkedin.src} width={30} />
+            </a>
           </div>
         </div>
       </div>
