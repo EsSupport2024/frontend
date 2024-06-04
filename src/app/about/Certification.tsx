@@ -69,6 +69,42 @@ const Certification = () => {
               Watch Now
             </a>
           </div>
+          <div className="rounded-xl bg-darkGray justify-end p-5 flex flex-col gap-5">
+            <div className="font-bold text-xs lg:text-xl text-white">
+              ISO Certificate
+            </div>
+            <div className="text-[#EFFEFF] text-[9px] lg:text-base text-justify">
+              The ISO Certificate is a testament to our adherence to
+              international standards of quality and efficiency, showcasing our
+              commitment to delivering excellence and continual improvement in
+              our services.
+            </div>
+            <a
+              className="bg-white rounded w-fit py-1 px-3 lg:py-2 lg:px-4 text-[10px] lg:text-xs font-normal"
+              href="https://drive.google.com/file/d/1ar8_Fr07_bJTLVe39uaQh-yVtYO3T5IM/view?usp=drive_link"
+              target="_blank"
+            >
+              Watch Now
+            </a>
+          </div>
+          <div className="rounded-xl bg-darkGray justify-end p-5 flex flex-col gap-5">
+            <div className="font-bold text-xs lg:text-xl text-white">
+              Startup Certificate
+            </div>
+            <div className="text-[#EFFEFF] text-[9px] lg:text-base text-justify">
+              The Startup Certificate is a testament to our recognition under
+              the Government of India's Startup initiative, acknowledging out
+              innovative approach and potential to drive significant economic
+              growth and job creation.
+            </div>
+            <a
+              className="bg-white rounded w-fit py-1 px-3 lg:py-2 lg:px-4 text-[10px] lg:text-xs font-normal"
+              href="https://drive.google.com/file/d/1F02pF0iVWJBFviXEKmNX9I5om8gtsPpO/view?usp=drive_link"
+              target="_blank"
+            >
+              Watch Now
+            </a>
+          </div>
         </div>
       </div>
     </section>
