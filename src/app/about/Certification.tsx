@@ -25,7 +25,7 @@ const Certification = () => {
             </div>
             <a
               className="bg-white rounded w-fit py-1 px-3 lg:py-2 lg:px-4 text-[10px] lg:text-xs font-normal"
-              href="https://drive.google.com/file/d/1F02pF0iVWJBFviXEKmNX9I5om8gtsPpO/view?usp=drive_link"
+              href="https://drive.google.com/file/d/19IMK3v3-UnjElBo5d9_RJsk-JZNXdxKJ/view?usp=sharing"
               target="_blank"
             >
               Watch Now
