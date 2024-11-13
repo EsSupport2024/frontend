@@ -25,18 +25,17 @@ const Location = () => {
               </div>
             </div>
           </div>
-          {/* <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={corporate.src} />
             <div className="space-y-5 lg:w-[400px]">
               <div className="font-bold text-xs lg:text-xl">
-                Corporate office
+                Bhubaneswar office
               </div>
               <div className="text-[10px] lg:text-sm">
-                Shop no. 2, 2nd floor, Rati Ram Park Najafgarh, New Delhi -
-                110043
+                Plot No. 2887/3866. Mouza- Bhingarpur, P.S. Balianta, Dist. Khordha, Odisha
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={gujrat.src} />
             <div className="space-y-5 lg:w-[400px]">
@@ -74,6 +73,17 @@ const Location = () => {
               <div className="font-bold text-xs lg:text-xl">Sikkim office</div>
               <div className="text-[10px] lg:text-sm">
                 4(1) near maskey petrol pump m.p golai lower tadong gangtok sikkim 737102
+              </div>
+            </div>
+          </div>
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+            <img src={bangalore.src} />
+            <div className="space-y-5 lg:w-[400px]">
+              <div className="font-bold text-xs lg:text-xl">
+                UP office
+              </div>
+              <div className="text-[10px] lg:text-sm">
+                B-16 Basement, Flat No. 1/7, Nath Complex Dhakran Crossing, M.G.Road, New Chauhan Nursing Home, Agra, Uttar Pradesh -282010
               </div>
             </div>
           </div>

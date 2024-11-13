@@ -45,6 +45,12 @@ const Footer = () => {
                 +91-9718767374
               </a>
             </div>
+            <div>
+              <img src={phone.src} className="inline h-4" />
+              <a href="tel:011-49953499" className="ml-2">
+                011-49953499
+              </a>
+            </div>
           </div>
         </div>
         <div className="space-y-4 min-w-40">
