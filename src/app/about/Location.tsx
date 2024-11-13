@@ -21,11 +21,11 @@ const Location = () => {
                 Registered office
               </div>
               <div className="text-[10px] lg:text-sm">
-                100/1, AAjay Park, Naya Baar Najafgarh, New Delhi - 110043
+                T-10, 3rd Floor, HL Plaza, Plot No. 9, Pocket-2, Sector-12, Dwarka, New Delhi-110078.
               </div>
             </div>
           </div>
-          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          {/* <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={corporate.src} />
             <div className="space-y-5 lg:w-[400px]">
               <div className="font-bold text-xs lg:text-xl">
@@ -36,7 +36,7 @@ const Location = () => {
                 110043
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={gujrat.src} />
             <div className="space-y-5 lg:w-[400px]">
@@ -71,9 +71,9 @@ const Location = () => {
           <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={dwarka.src} />
             <div className="space-y-5 lg:w-[400px]">
-              <div className="font-bold text-xs lg:text-xl">Dwarka office</div>
+              <div className="font-bold text-xs lg:text-xl">Sikkim office</div>
               <div className="text-[10px] lg:text-sm">
-                9th floor unit no-905 Vegas mall sec-14 Dwarka, Delhi
+                4(1) near maskey petrol pump m.p golai lower tadong gangtok sikkim 737102
               </div>
             </div>
           </div>
