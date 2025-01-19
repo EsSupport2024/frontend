@@ -6,7 +6,7 @@ import dwarka from "@/../public/assets/icons/dwarka-office.png";
 import gujrat from "@/../public/assets/icons/gujrat-office.png";
 import registered from "@/../public/assets/icons/registered-office.png";
 
-const Locations = () => {
+const Location = () => {
   return (
     <section className="bg-lightOrange">
       <div className="container mx-auto px-4 py-16 lg:px-24 lg:py-32">
@@ -21,7 +21,8 @@ const Locations = () => {
                 Registered office
               </div>
               <div className="text-[10px] lg:text-sm">
-                100/1, AAjay Park, Naya Baar Najafgarh, New Delhi - 110043
+                T-10, 3rd Floor, HL Plaza, Plot No. 9, Pocket-2, Sector-12,
+                Dwarka, New Delhi-110078.
               </div>
             </div>
           </div>
@@ -29,11 +30,11 @@ const Locations = () => {
             <img src={corporate.src} />
             <div className="space-y-5 lg:w-[400px]">
               <div className="font-bold text-xs lg:text-xl">
-                Corporate office
+                Bhubaneswar office
               </div>
               <div className="text-[10px] lg:text-sm">
-                Shop no. 2, 2nd floor, Rati Ram Park Najafgarh, New Delhi -
-                110043
+                Plot No. 2887/3866. Mouza- Bhingarpur, P.S. Balianta, Dist.
+                Khordha, Odisha
               </div>
             </div>
           </div>
@@ -71,9 +72,29 @@ const Locations = () => {
           <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={dwarka.src} />
             <div className="space-y-5 lg:w-[400px]">
-              <div className="font-bold text-xs lg:text-xl">Dwarka office</div>
+              <div className="font-bold text-xs lg:text-xl">Sikkim office</div>
               <div className="text-[10px] lg:text-sm">
-                9th floor unit no-905 Vegas mall sec-14 Dwarka, Delhi
+                4(1) near maskey petrol pump m.p golai lower tadong gangtok
+                sikkim 737102
+              </div>
+            </div>
+          </div>
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+            <img src={bangalore.src} />
+            <div className="space-y-5 lg:w-[400px]">
+              <div className="font-bold text-xs lg:text-xl">UP office</div>
+              <div className="text-[10px] lg:text-sm">
+                B-16 Basement, Flat No. 1/7, Nath Complex Dhakran Crossing,
+                M.G.Road, New Chauhan Nursing Home, Agra, Uttar Pradesh -282010
+              </div>
+            </div>
+          </div>
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+            <img src={gujrat.src} />
+            <div className="space-y-5 lg:w-[400px]">
+              <div className="font-bold text-xs lg:text-xl">Goa office</div>
+              <div className="text-[10px] lg:text-sm">
+                Manjunath Co-Op. HSG Society 18 June Road, Panjim Goa 403001
               </div>
             </div>
           </div>
@@ -83,4 +104,4 @@ const Locations = () => {
   );
 };
 
-export default Locations;
+export default Location;
