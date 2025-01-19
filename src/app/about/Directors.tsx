@@ -1,5 +1,5 @@
 import React from "react";
-import director from "@/../public/assets/images/director.png";
+import director from "@/../public/assets/images/director.jpeg";
 
 const Directors = () => {
   return (
@@ -16,7 +16,7 @@ const Directors = () => {
             <div className="absolute h-full w-20 bg-black rounded-t-lg"></div>
             <img
               src={director.src}
-              className="lg:w-60 w-44 m-auto lg:h-72 h-52 z-10 absolute bottom-0 left-2/4 -translate-x-2/4"
+              className="lg:w-60 w-44 m-auto lg:h-72 h-52 z-10 absolute bottom-0 left-2/4 -translate-x-2/4 object-cover rounded-md"
             />
             <div className="absolute h-3/4 w-20 bg-[#E2FCFF] rounded-t-lg right-0 bottom-0"></div>
           </div>

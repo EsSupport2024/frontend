@@ -21,7 +21,8 @@ const Location = () => {
                 Registered office
               </div>
               <div className="text-[10px] lg:text-sm">
-                T-10, 3rd Floor, HL Plaza, Plot No. 9, Pocket-2, Sector-12, Dwarka, New Delhi-110078.
+                T-10, 3rd Floor, HL Plaza, Plot No. 9, Pocket-2, Sector-12,
+                Dwarka, New Delhi-110078.
               </div>
             </div>
           </div>
@@ -32,7 +33,8 @@ const Location = () => {
                 Bhubaneswar office
               </div>
               <div className="text-[10px] lg:text-sm">
-                Plot No. 2887/3866. Mouza- Bhingarpur, P.S. Balianta, Dist. Khordha, Odisha
+                Plot No. 2887/3866. Mouza- Bhingarpur, P.S. Balianta, Dist.
+                Khordha, Odisha
               </div>
             </div>
           </div>
@@ -72,18 +74,27 @@ const Location = () => {
             <div className="space-y-5 lg:w-[400px]">
               <div className="font-bold text-xs lg:text-xl">Sikkim office</div>
               <div className="text-[10px] lg:text-sm">
-                4(1) near maskey petrol pump m.p golai lower tadong gangtok sikkim 737102
+                4(1) near maskey petrol pump m.p golai lower tadong gangtok
+                sikkim 737102
               </div>
             </div>
           </div>
           <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={bangalore.src} />
             <div className="space-y-5 lg:w-[400px]">
-              <div className="font-bold text-xs lg:text-xl">
-                UP office
-              </div>
+              <div className="font-bold text-xs lg:text-xl">UP office</div>
               <div className="text-[10px] lg:text-sm">
-                B-16 Basement, Flat No. 1/7, Nath Complex Dhakran Crossing, M.G.Road, New Chauhan Nursing Home, Agra, Uttar Pradesh -282010
+                B-16 Basement, Flat No. 1/7, Nath Complex Dhakran Crossing,
+                M.G.Road, New Chauhan Nursing Home, Agra, Uttar Pradesh -282010
+              </div>
+            </div>
+          </div>
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+            <img src={gujrat.src} />
+            <div className="space-y-5 lg:w-[400px]">
+              <div className="font-bold text-xs lg:text-xl">Goa office</div>
+              <div className="text-[10px] lg:text-sm">
+                Manjunath Co-Op. HSG Society 18 June Road, Panjim Goa 403001
               </div>
             </div>
           </div>

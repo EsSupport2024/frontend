@@ -26,21 +26,26 @@ const Hero = () => {
         </div>
         <div className="bg-[#FF7100] lg:p-10 p-5 text-white flex gap-5 flex-col justify-around">
           <div className="text-[20px] mt-2 lg:text-[44px] font-bold ">Info</div>
-          <div className="">
+          <div>
             <Mail className="inline " />
             <label className="ml-2">support@essupport.in</label>
           </div>
-          <div className="">
+          <div>
             <PhoneCall className="inline " />
             <label className="ml-2">+91 - 9718767374</label>
           </div>
-          <div className="">
+          <div>
+            <PhoneCall className="inline " />
+            <label className="ml-2">011-49953499</label>
+          </div>
+          <div>
             <Building2 className="inline " />
             <label className="ml-2">
-              100/1, AAjay Park, Naya Baar Najafgarh, New Delhi - 110043
+              T-10, 3rd Floor, HL Plaza, Plot No. 9, Pocket-2, Sector-12,
+              Dwarka, New Delhi-110078.
             </label>
           </div>
-          <div className="">
+          <div>
             <Clock className="inline " />
             <label className="ml-2">09:00 - 18:00</label>
           </div>
