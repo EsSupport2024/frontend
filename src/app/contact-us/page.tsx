@@ -6,6 +6,7 @@ import Header from "@/sections/Header";
 import React from "react";
 import Hero from "./Hero";
 import Locations from "./Locations";
+import Map from "./Map";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.essupport.in/contact-us"),
@@ -31,6 +32,7 @@ const Page = () => (
       <Hero />
     </div>
     <Locations />
+    <Map />
     <GetInTouch />
     <Footer />
     <WhatsApp />
